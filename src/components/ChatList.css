@@ -1,0 +1,20 @@
+.chat-list {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #E1E1E1; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #fff; /* White background */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    max-width: 400px; /* Fixed width, adjust as necessary */
+}
+
+.chat-list-item {
+    padding: 10px;
+    border-bottom: 1px solid #E1E1E1; /* Light gray border for separation */
+}
+
+.chat-list-item:last-child {
+    border-bottom: none; /* Remove border for the last item */
+}

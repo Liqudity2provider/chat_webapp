@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "folder": "active",
+        "chat_name": "Chat One",
+        "imgsrc": "https://cdn-icons-png.flaticon.com/512/11865/11865338.png",
+        "me": "User123",
+        "taged": true,
+        "unrecieved": 5
+    },
+    {
+        "id": 2,
+        "folder": "inactive",
+        "chat_name": "Chat Two",
+        "imgsrc": "https://cdn-icons-png.flaticon.com/512/11865/11865338.png",
+        "me": "User456",
+        "taged": false,
+        "unrecieved": 2
+    }
+]

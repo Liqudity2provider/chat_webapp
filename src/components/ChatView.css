@@ -1,0 +1,60 @@
+.chat-view {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    overflow: auto;
+    height: 400px; /* Fixed height with scrolling */
+}
+
+.message {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.message.user {
+    align-self: flex-end;
+    background-color: #dcf8c6; /* Light green for user messages */
+}
+
+.message.chatbot {
+    align-self: flex-start;
+    background-color: #eee; /* Light grey for chatbot messages */
+}
+
+.timestamp {
+    font-size: 0.75rem;
+    text-align: right;
+    opacity: 0.6;
+}
+
+.chat-view {
+    padding: 20px;
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #e1e1e1;
+}
+
+.message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
